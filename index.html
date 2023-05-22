@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lovely Days</title>
+</head>
+<body>
+
+    <div class="container">
+        <!-- One Date Relationship-->
+        <div class="container-one-date">
+            <div class="menu">
+                <h2>Datum začátku vztahu </h2>
+                <input type="date" class="dateRelationship">
+                <button onclick="getDateRelationship()">Get date</button>
+            </div>
+
+            <div class="one-result">
+                <span class="textR"></span>
+                <span class="resultDayR"></span>
+                <span class="resultHourR"></span>
+                <span class="resultMinuteR"></span>
+                <span class="resultSecondR"></span>
+            </div>
+        </div>
+
+    <!-- One Date Wedding-->
+    <div class="container-one-date">
+        <div class="menu">
+            <h2>Datum svatby</h2>
+            <input type="date" class="dateWedding">
+            <button onclick="getDateWedding()">Get date</button>
+        </div>
+
+        <div class="one-result">
+            <span class="textW"></span>
+            <span class="resultDayW"></span>
+            <span class="resultHourW"></span>
+            <span class="resultMinuteW"></span>
+            <span class="resultSecondW"></span>
+        </div>
+    </div>
+    <!-- One Date Born Child-->
+    <div class="container-one-date">
+        <div class="menu">
+            <h2>Datum narození dítěte</h2>
+            <input type="date" class="dateChild">
+            <button onclick="getDateChild()">Get date</button>
+        </div>
+
+        <div class="one-result">
+            <span class="textCh"></span>
+            <span class="resultDayCh"></span>
+            <span class="resultHourCh"></span>
+            <span class="resultMinuteCh"></span>
+            <span class="resultSecondCh"></span>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
